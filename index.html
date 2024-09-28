@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Hero</title>
+  </head>
+<body>
+  <nav id="nav" class="nav" aria-label="Main Navigation">
+    <div class="nav-container">
+      <a href="#" class="logo-wrapper">
+        <img class="logo-img" src="photos/com-1--unscreen.gif" alt="logo" width="160" height="29.44" />
+      </a>
+      <div class="menu-wrapper">
+        <div class="mobile-wrapper">
+          <div class="mobile-mobile-head">
+            <a href="#" class="logo-wrapper">
+              <img class="logo-img" src="photos/com-1--unscreen.gif" alt="logo" width="160" height="29.44" />
+            </a>
+            <button class="icon-btn" aria-label="Close Menu" aria-expanded="false" onclick="nav.classList.remove('open')">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path>
+              </svg>
+            </button>
+          </div>
+          <nav class="menu" aria-hidden="true">
+            <li><a href="#" class="nav-link">About</a></li>
+            <li><a href="#" class="nav-link">Goals</a></li>
+            <li><a href="#" class="nav-link">Services</a></li>
+            <li><a href="#" class="nav-link">Contact</a></li>
+            <li><a href="#" class="nav-link">Section</a></li>
+          </nav>
+        </div>
+  
+        <div class="container actions">
+          <div class="btn"><a href="#" class="primary">Get Started</a></div>
+          <div class="btn"> <a href="#" class=" primary">Login</a></div>
+          
+        </div>
+      </div>
+  
+      <button class="icon-btn" aria-label="Open Menu" aria-expanded="false" onclick="nav.classList.add('open')">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>  
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-visual">
+          <div class="hero-visual-wrapper">
+            <video class="hero-video video-1" autoplay loop muted role="none">
+              <source src="photos/video-1.mp4"/>
+            </video>
+            <video class="hero-video video-2" autoplay loop muted role="none">
+              <source
+                src="photos/video-2.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
+
+        <div class="hero-content">
+          <header class="hero-header">
+            <div class="headline1">
+              <span class="headline-container">
+                <div class="headline-scroller">
+                  <span class="scroll-item">Fire</span>
+                  <span class="scroll-item"> Hire</span>
+                  <span class="scroll-item"> Fire & Hire</span>
+                </div>
+              </span>
+              <span> the Influencers </span>
+            </div>
+            <div class="content-actions">
+              <a href="#" class="button-link primary">Get started</a>
+            </div>
+          </header>
+        </div>
+      </section>
+    </main>
+  </body>
+  </html>
